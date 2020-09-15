@@ -33,7 +33,7 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -48,7 +48,147 @@
                 <a href=""><i class="fab fa-github-alt"></i></a>
                 <a href=""><i class="fab fa-linkedin-in"></i></a>
             </div>
+        </aside>
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O html foi meu primeiro objeto de estudo, estudando o desenvolvimento.<br>
+                            Iniciei o primeiro projeto com uma single page de e-commecerce, e agora com o porfólio do
+                            zero.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O Cascading Style Sheets sempre chamou minha atenção pela sua grande capacidade de criação
+                            visual.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Aqui vou colocar o que aprendi sobre o design das paginas durante o processo de aprendizado.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Conhecimentos iniciais ainda, onde o curso de desenvolvimento WEB está sendo executado.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootsrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Aplicado na responsividade das paginas desenvolvidas.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Aplicaçções basicas em versionamento de código e disponibilidade de meus projetos.</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="images/conhecimentos.png" alt="" class="src">
+                </div>
+            </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/projetoOne.jpg" alt="imagem do projeto ToDo" />
+                    </div>
+                    <div class="card-info">
+                        <h2>ToDo List</h2>
+                        <h3>Javascript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet
+                            magnam doloribus eos consequatur expedita architecto hic?</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/projectTwo.jpg" alt="imagem do projeto Maratona" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur
+                            libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/projectGame.jpg" alt="imagem do projeto Casa Bela" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Cards Game</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque
+                            tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <!-- É preciso vincular o imput com o label, fazer uso de id, usar o atributo FOR -->
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 </body>
